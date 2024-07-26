@@ -49,6 +49,19 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.6943972835314092,
+            "y": 0.7386018237082067,
+            "uniqueID": 1722013603711,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1722012852705
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -65,6 +78,13 @@
             "ap2Primary": false,
             "ap1ID": 1722012852705,
             "ap2ID": 1722012623239
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1722012852705,
+            "ap2ID": 1722013603711
         }
     ],
     "fileTypeVersion": 1,
