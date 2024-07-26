@@ -1,0 +1,73 @@
+{
+    "atomType": "Molecule",
+    "name": "Molecule",
+    "x": 0.19269949066213923,
+    "y": 0.4316109422492402,
+    "uniqueID": 1722012623196,
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1722012623239,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1722012852705
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.467741935483871,
+            "y": 0.5045592705167173,
+            "uniqueID": 1722012849945,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.6120543293718167,
+            "y": 0.6808510638297872,
+            "uniqueID": 1722012852705,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1722012849945
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
+        }
+    ],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1722012849945,
+            "ap2ID": 1722012852705
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1722012852705,
+            "ap2ID": 1722012623239
+        }
+    ],
+    "fileTypeVersion": 1,
+    "compiledBom": [],
+    "filetypeVersion": 1
+}
