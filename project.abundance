@@ -38,6 +38,10 @@
                 {
                     "name": "geometry",
                     "ioValue": 1722792459884
+                },
+                {
+                    "name": "Resolution",
+                    "ioValue": 72
                 }
             ],
             "type": "SVG",
@@ -108,19 +112,23 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.527363184079602,
-            "y": 0.817629179331307,
+            "x": 0.5243757431629013,
+            "y": 0.8267477203647416,
             "uniqueID": 1722799522862,
             "ioValues": [
                 {
                     "name": "geometry",
                     "ioValue": 1722012849945
+                },
+                {
+                    "name": "Resolution",
+                    "ioValue": 72
                 }
             ],
             "type": "SVG",
             "resolution": 72,
             "importIndex": 0,
-            "fileName": "extruded_circle_test"
+            "fileName": null
         }
     ],
     "allConnectors": [
