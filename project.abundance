@@ -43,7 +43,7 @@
             "type": "SVG",
             "resolution": 160,
             "importIndex": 0,
-            "partName": ""
+            "partName": null
         },
         {
             "atomType": "Rectangle",
@@ -120,7 +120,7 @@
             "type": "SVG",
             "resolution": 72,
             "importIndex": 0,
-            "partName": ""
+            "partName": null
         }
     ],
     "allConnectors": [
