@@ -1,6 +1,6 @@
 {
     "atomType": "Molecule",
-    "name": "Molecule",
+    "name": "extruded_circle_test",
     "x": 0.19269949066213923,
     "y": 0.4316109422492402,
     "uniqueID": 1722012623196,
@@ -31,8 +31,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.6896551724137931,
-            "y": 0.5106382978723405,
+            "x": 0.6887232059645852,
+            "y": 0.5227963525835866,
             "uniqueID": 1722790729500,
             "ioValues": [
                 {
@@ -42,8 +42,8 @@
             ],
             "type": "SVG",
             "resolution": 72,
-            "importIndex": 1,
-            "fileName": "weirdo"
+            "importIndex": 0,
+            "fileName": "assembly"
         },
         {
             "atomType": "Rectangle",
@@ -104,6 +104,23 @@
                     "ioValue": 0
                 }
             ]
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.5228331780055918,
+            "y": 0.7325227963525835,
+            "uniqueID": 1722799522862,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1722012849945
+                }
+            ],
+            "type": "SVG",
+            "resolution": 72,
+            "importIndex": 0,
+            "fileName": "circle"
         }
     ],
     "allConnectors": [
@@ -113,6 +130,13 @@
             "ap2Primary": false,
             "ap1ID": 1722012849945,
             "ap2ID": 1722792459884
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1722012849945,
+            "ap2ID": 1722799522862
         },
         {
             "ap1Name": "geometry",
