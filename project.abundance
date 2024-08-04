@@ -38,6 +38,10 @@
                 {
                     "name": "geometry",
                     "ioValue": 1722792459884
+                },
+                {
+                    "name": "file name",
+                    "ioValue": "me"
                 }
             ],
             "type": "SVG",
@@ -115,12 +119,16 @@
                 {
                     "name": "geometry",
                     "ioValue": 1722012849945
+                },
+                {
+                    "name": "file name",
+                    "ioValue": "me"
                 }
             ],
             "type": "SVG",
             "resolution": 72,
             "importIndex": 0,
-            "partName": null
+            "partName": "meemememe"
         }
     ],
     "allConnectors": [
