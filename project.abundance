@@ -38,16 +38,12 @@
                 {
                     "name": "geometry",
                     "ioValue": 1722792459884
-                },
-                {
-                    "name": "file name",
-                    "ioValue": "me"
                 }
             ],
             "type": "SVG",
             "resolution": 160,
             "importIndex": 0,
-            "partName": null
+            "fileName": null
         },
         {
             "atomType": "Rectangle",
@@ -112,23 +108,19 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.527363184079602,
-            "y": 0.817629179331307,
+            "x": 0.5279429250891795,
+            "y": 0.8145896656534954,
             "uniqueID": 1722799522862,
             "ioValues": [
                 {
                     "name": "geometry",
                     "ioValue": 1722012849945
-                },
-                {
-                    "name": "file name",
-                    "ioValue": "me"
                 }
             ],
             "type": "SVG",
             "resolution": 72,
             "importIndex": 0,
-            "partName": "meemememe"
+            "fileName": "let "
         }
     ],
     "allConnectors": [
