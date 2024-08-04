@@ -31,8 +31,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.6980428704566635,
-            "y": 0.5197568389057751,
+            "x": 0.6971109040074557,
+            "y": 0.5349544072948328,
             "uniqueID": 1722790729500,
             "ioValues": [
                 {
@@ -43,7 +43,7 @@
             "type": "STL",
             "resolution": 72,
             "importIndex": 0,
-            "fileName": "defaultPartName"
+            "fileName": "circle"
         },
         {
             "atomType": "Rectangle",
@@ -120,7 +120,7 @@
             "type": "SVG",
             "resolution": 300,
             "importIndex": 0,
-            "fileName": "none"
+            "fileName": null
         }
     ],
     "allConnectors": [
