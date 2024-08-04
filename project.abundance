@@ -18,8 +18,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.4286926994906622,
-            "y": 0.5075987841945289,
+            "x": 0.21901211556383973,
+            "y": 0.3434650455927052,
             "uniqueID": 1722012849945,
             "ioValues": [
                 {
@@ -31,29 +31,112 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.7409133271202237,
-            "y": 0.7173252279635258,
+            "x": 0.6896551724137931,
+            "y": 0.5106382978723405,
             "uniqueID": 1722790729500,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1722012849945
+                    "ioValue": 1722792459884
                 }
             ],
             "type": "SVG",
             "resolution": 72,
-            "importIndex": 2
+            "importIndex": 1,
+            "fileName": "weirdo"
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.1966449207828518,
+            "y": 0.7051671732522796,
+            "uniqueID": 1722792455102,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Join",
+            "name": "Assembly",
+            "x": 0.5181733457595527,
+            "y": 0.43465045592705165,
+            "uniqueID": 1722792459884,
+            "ioValues": [
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 1722012849945
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 1722792470871
+                }
+            ],
+            "unionType": "Assembly"
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.2954333643988817,
+            "y": 0.8267477203647416,
+            "uniqueID": 1722792470871,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1722792455102
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 8
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
         }
     ],
     "allConnectors": [
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
+            "ap2Name": "3D shape 2",
             "ap2Primary": false,
             "ap1ID": 1722012849945,
+            "ap2ID": 1722792459884
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1722792455102,
+            "ap2ID": 1722792470871
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1722792459884,
             "ap2ID": 1722790729500
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 3",
+            "ap2Primary": false,
+            "ap1ID": 1722792470871,
+            "ap2ID": 1722792459884
         }
     ],
+    "unitsKey": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": [],
     "filetypeVersion": 1
