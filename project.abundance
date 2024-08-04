@@ -31,8 +31,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.7176141658900279,
-            "y": 0.42857142857142855,
+            "x": 0.7260018639328985,
+            "y": 0.4012158054711247,
             "uniqueID": 1722790729500,
             "ioValues": [
                 {
@@ -43,7 +43,7 @@
             "type": "STL",
             "resolution": 72,
             "importIndex": 0,
-            "fileName": "fuckkk"
+            "fileName": "part"
         },
         {
             "atomType": "Rectangle",
@@ -120,7 +120,7 @@
             "type": "SVG",
             "resolution": 300,
             "importIndex": 0,
-            "fileName": null
+            "fileName": "part"
         }
     ],
     "allConnectors": [
