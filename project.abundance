@@ -32,7 +32,7 @@
             "atomType": "Export",
             "name": "Export",
             "x": 0.6952469711090401,
-            "y": 0.4893617021276595,
+            "y": 0.48632218844984804,
             "uniqueID": 1722790729500,
             "ioValues": [
                 {
@@ -43,7 +43,7 @@
             "type": "SVG",
             "resolution": 72,
             "importIndex": 0,
-            "fileName": "CIRCLE"
+            "fileName": "circle"
         },
         {
             "atomType": "Rectangle",
