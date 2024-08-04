@@ -32,7 +32,7 @@
             "atomType": "Export",
             "name": "Export",
             "x": 0.6952469711090401,
-            "y": 0.48632218844984804,
+            "y": 0.5075987841945289,
             "uniqueID": 1722790729500,
             "ioValues": [
                 {
@@ -40,10 +40,10 @@
                     "ioValue": 1722792459884
                 }
             ],
-            "type": "SVG",
+            "type": "STL",
             "resolution": 72,
             "importIndex": 0,
-            "fileName": "circle"
+            "fileName": "defaultPartName"
         },
         {
             "atomType": "Rectangle",
@@ -108,8 +108,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.5256290773532153,
-            "y": 0.7416413373860182,
+            "x": 0.5330848089468779,
+            "y": 0.7446808510638299,
             "uniqueID": 1722799522862,
             "ioValues": [
                 {
