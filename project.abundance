@@ -31,8 +31,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.7082945013979497,
-            "y": 0.4650455927051672,
+            "x": 0.712022367194781,
+            "y": 0.4832826747720364,
             "uniqueID": 1722790729500,
             "ioValues": [
                 {
@@ -43,7 +43,7 @@
             "type": "SVG",
             "resolution": 160,
             "importIndex": 0,
-            "fileName": "emp"
+            "partName": "lush"
         },
         {
             "atomType": "Rectangle",
@@ -108,8 +108,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.5268166089965398,
-            "y": 0.7629179331306991,
+            "x": 0.5256290773532153,
+            "y": 0.7872340425531915,
             "uniqueID": 1722799522862,
             "ioValues": [
                 {
@@ -120,7 +120,7 @@
             "type": "SVG",
             "resolution": 72,
             "importIndex": 0,
-            "fileName": "3211"
+            "partName": "lucky"
         }
     ],
     "allConnectors": [
