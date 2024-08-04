@@ -31,8 +31,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.7101584342963653,
-            "y": 0.44376899696048633,
+            "x": 0.7082945013979497,
+            "y": 0.4650455927051672,
             "uniqueID": 1722790729500,
             "ioValues": [
                 {
@@ -40,10 +40,10 @@
                     "ioValue": 1722792459884
                 }
             ],
-            "type": "STL",
-            "resolution": 72,
+            "type": "SVG",
+            "resolution": 160,
             "importIndex": 0,
-            "fileName": "Export default"
+            "fileName": "damn"
         },
         {
             "atomType": "Rectangle",
