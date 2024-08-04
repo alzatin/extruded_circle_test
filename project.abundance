@@ -40,8 +40,12 @@
                     "ioValue": 1722792459884
                 },
                 {
-                    "name": "Resolution",
+                    "name": "Resolution (dpi)",
                     "ioValue": 72
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Part Name"
                 }
             ],
             "type": "SVG",
@@ -121,8 +125,12 @@
                     "ioValue": 1722012849945
                 },
                 {
-                    "name": "Resolution",
+                    "name": "Resolution (dpi)",
                     "ioValue": 72
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "momocu"
                 }
             ],
             "type": "SVG",
