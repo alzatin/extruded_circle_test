@@ -108,8 +108,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.5279429250891795,
-            "y": 0.8145896656534954,
+            "x": 0.527363184079602,
+            "y": 0.817629179331307,
             "uniqueID": 1722799522862,
             "ioValues": [
                 {
@@ -120,7 +120,7 @@
             "type": "SVG",
             "resolution": 72,
             "importIndex": 0,
-            "fileName": "let "
+            "fileName": "extruded_circle_test"
         }
     ],
     "allConnectors": [
