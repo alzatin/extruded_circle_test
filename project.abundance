@@ -223,6 +223,18 @@
             "allConnectors": [],
             "fileTypeVersion": 1,
             "compiledBom": {}
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.34355179704016914,
+            "y": 0.7872340425531915,
+            "uniqueID": 1722888480430,
+            "ioValues": [],
+            "fileName": "adidas.svg",
+            "type": "SVG",
+            "SVGdepth": 10,
+            "SVGwidth": 10
         }
     ],
     "allConnectors": [
