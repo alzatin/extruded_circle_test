@@ -42,12 +42,12 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.41014799154334036,
-            "y": 0.729483282674772,
-            "uniqueID": 1722889967050,
+            "x": 0.4767441860465116,
+            "y": 0.601823708206687,
+            "uniqueID": 1722890452407,
             "ioValues": [],
-            "fileName": "test units .svg",
-            "type": "SVG",
+            "fileName": null,
+            "type": null,
             "SVGdepth": 10,
             "SVGwidth": 10
         }
