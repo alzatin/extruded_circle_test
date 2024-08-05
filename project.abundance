@@ -31,13 +31,13 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.7299618320610687,
-            "y": 0.41033434650455924,
+            "x": 0.7977099236641221,
+            "y": 0.5258358662613982,
             "uniqueID": 1722790729500,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1722792459884
+                    "ioValue": 1722870905371
                 },
                 {
                     "name": "Resolution (dpi)",
@@ -49,7 +49,7 @@
                 },
                 {
                     "name": "File Type",
-                    "ioValue": "STEP"
+                    "ioValue": "STL"
                 }
             ],
             "type": "SVG",
@@ -77,8 +77,8 @@
         {
             "atomType": "Join",
             "name": "Fusion",
-            "x": 0.5116495806150978,
-            "y": 0.41641337386018235,
+            "x": 0.5095419847328244,
+            "y": 0.4194528875379939,
             "uniqueID": 1722792459884,
             "ioValues": [
                 {
@@ -121,7 +121,7 @@
             "atomType": "Export",
             "name": "Export",
             "x": 0.5658396946564885,
-            "y": 0.8267477203647416,
+            "y": 0.817629179331307,
             "uniqueID": 1722799522862,
             "ioValues": [
                 {
@@ -138,13 +138,30 @@
                 },
                 {
                     "name": "File Type",
-                    "ioValue": "SVG"
+                    "ioValue": "STEP"
                 }
             ],
             "type": "SVG",
             "resolution": 72,
             "importIndex": 0,
             "fileName": null
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.6536259541984732,
+            "y": 0.6200607902735562,
+            "uniqueID": 1722870905371,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1722792459884
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -172,9 +189,9 @@
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
-            "ap2Primary": false,
+            "ap2Primary": true,
             "ap1ID": 1722792459884,
-            "ap2ID": 1722790729500
+            "ap2ID": 1722870905371
         },
         {
             "ap1Name": "geometry",
@@ -182,6 +199,13 @@
             "ap2Primary": false,
             "ap1ID": 1722792470871,
             "ap2ID": 1722792459884
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1722870905371,
+            "ap2ID": 1722790729500
         }
     ],
     "unitsKey": "Inches",
